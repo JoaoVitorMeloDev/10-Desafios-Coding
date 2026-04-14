@@ -22,3 +22,5 @@ quantidade = 10
 
 print("Produto: " + nome)
 print("Quantidade:", quantidade)
+
+#Por que minha solução é melhor - Corrige o nome da variável, evita erro de referência, Usa (,) no print, que já trata diferentes tipos automaticamente Mantém o tipo int, o que é mais correto.
