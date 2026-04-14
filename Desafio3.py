@@ -19,3 +19,5 @@ class Produto:
 
 p1 = Produto("Mouse", 10)
 print(p1.nome, p1.quantidade)
+
+#Por que a minha solução é melhor - Usa corretamente o self, seguindo o padrão da orientação a objetos, Permite armazenar dados dentro do objeto, Exibe corretamente os atributos (nome e quantidade)
