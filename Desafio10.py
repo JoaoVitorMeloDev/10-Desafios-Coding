@@ -13,7 +13,8 @@ def executar_rota(rota, metodo, dados=None):
 
 #-------------------------------------------------------------#-------------------------------------------------------------#
 
-#Adicionando as rotas e metodos e return caso não encontre nenhuma rota
+# Adicionando as rotas e metodos e return caso não encontre nenhuma rota
+
 def executar_rota(rota, metodo, dados=None):
     if rota == "/produtos" and metodo == "GET":
         return get_produtos()
