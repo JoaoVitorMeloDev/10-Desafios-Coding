@@ -1,0 +1,26 @@
+# no def mostrar_dados(): dentro dos () Parenteses deveria ter o self
+
+class Produto:
+    def __init__(self, nome, quantidade):
+        self.nome = nome
+        self.quantidade = quantidade
+
+    def mostrar_dados():
+        print(f"{self.nome} - {self.quantidade}")
+
+p1 = Produto("Teclado", 5)
+p1.mostrar_dados()
+
+#-------------------------------------------------------------#-------------------------------------------------------------#
+
+# Adicionado o self dentro do def mostrar_dados()
+class Produto:
+    def __init__(self, nome, quantidade):
+        self.nome = nome
+        self.quantidade = quantidade
+
+    def mostrar_dados(self):
+        print(f"{self.nome} - {self.quantidade}")
+
+p1 = Produto("Teclado", 5)
+p1.mostrar_dados()
