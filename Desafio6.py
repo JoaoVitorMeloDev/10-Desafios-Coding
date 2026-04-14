@@ -1,4 +1,5 @@
-#O int nesse print(estoque.atualizar_quantidade) não deveria estar negativo
+# O int nesse print(estoque.atualizar_quantidade) não deveria estar negativo
+
 class Produto:
     def __init__(self, nome, quantidade):
         self.nome = nome
