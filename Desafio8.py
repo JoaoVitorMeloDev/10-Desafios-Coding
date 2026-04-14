@@ -18,7 +18,7 @@ print(p1.tamanho_arquivo)
 
 #-------------------------------------------------------------#-------------------------------------------------------------#
 
-# Adicionando o nome e quantidade no __init__ da classe ProdutoDigital e adicionei o super
+# Adicionando o nome e quantidade no __init__ da classe ProdutoDigital e adicionei o super porque por algum motivo o def mostrardados não queria funcionar
 class Produto:
     def __init__(self, nome, quantidade):
         self.nome = nome
