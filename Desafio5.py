@@ -1,4 +1,4 @@
-#Tem um diferente de != ao lado do nome.lower(): fazendo com que ele não retorne o produto
+# Tem um diferente de != ao lado do nome.lower(): fazendo com que ele não retorne o produto
 
 class Estoque:
     def __init__(self):
