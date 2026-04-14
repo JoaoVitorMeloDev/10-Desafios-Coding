@@ -11,7 +11,7 @@ print(p1.nome)
 
 #-------------------------------------------------------------#-------------------------------------------------------------#
 
-#Adicionando o self e adicionando o p1.quantidade (tanto pode colocar embaixo com mais um () parênteses ou mostrar os dois juntos usando o ,)
+# Adicionando o self e adicionando o p1.quantidade (tanto pode colocar embaixo com mais um () parênteses ou mostrar os dois juntos usando o ,)
 class Produto:
     def __init__(self, nome, quantidade):
         self.nome = nome
