@@ -57,3 +57,5 @@ estoque.adicionar_produto(p1)
 
 print(estoque.atualizar_quantidade("Pizza", 5))
 print(p1.quantidade)
+
+#Por que a minha solução é melhor - Evita valores inválidos no sistema, Mantém a consistência dos dados, Torna o sistema mais seguro.
