@@ -24,3 +24,5 @@ class Produto:
 
 p1 = Produto("Teclado", 5)
 p1.mostrar_dados()
+
+#Por que minha solução é melhor - Permite acessar os atributos do objeto corretamente, Segue o padrão da programação orientada a objetos, Evita erro de execução.
