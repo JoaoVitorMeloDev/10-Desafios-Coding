@@ -29,3 +29,4 @@ class Estoque:
                 return produto
         return "Produto não encontrado"
 
+# Por que minha solução é melhor - Corrige a lógica da busca, Garante que o produto retornado seja o correto, Evita resultados inesperados.
