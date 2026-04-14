@@ -24,7 +24,7 @@ for p in produtos:
     
 #-------------------------------------------------------------#-------------------------------------------------------------#
 
-#Adicionando o def mostrar dados
+# Adicionando o def mostrar dados
 
 class Produto:
     def __init__(self, nome, quantidade):
