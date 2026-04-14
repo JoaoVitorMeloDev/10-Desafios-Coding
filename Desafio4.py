@@ -1,4 +1,4 @@
-# no def mostrar_dados(): dentro dos () Parenteses deveria ter o self
+# Na parte do mostrar_dados(): dentro dos () Parenteses deveria existir o self
 
 class Produto:
     def __init__(self, nome, quantidade):
